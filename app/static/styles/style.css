@@ -1,0 +1,29 @@
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.searchbars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+    width: 100bw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+}
+
+.filter {
+    margin-left: 20px;
+}
